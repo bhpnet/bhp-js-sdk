@@ -1,0 +1,75 @@
+{
+  "_from": "git+https://github.com/irisnet/irisnet-crypto.git",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/irisnet-crypto",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "git+https://github.com/irisnet/irisnet-crypto.git",
+    "rawSpec": "git+https://github.com/irisnet/irisnet-crypto.git",
+    "saveSpec": "git+https://github.com/irisnet/irisnet-crypto.git",
+    "fetchSpec": "https://github.com/irisnet/irisnet-crypto.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/irisnet/irisnet-crypto.git#23cf39ad9218c2a2c7f9584ffa5f4ee690e5ccaa",
+  "_spec": "git+https://github.com/irisnet/irisnet-crypto.git",
+  "_where": "D:\\work\\js-test",
+  "author": "Wenxi Cheng <vincent@bianjie.ai>",
+  "bugs": {
+    "url": "https://github.com/irisnet/irisnet-crypto/issues"
+  },
+  "dependencies": {
+    "base64-node": "^1.0.0",
+    "bech32": "^1.1.3",
+    "bignumber.js": "^5.0.0",
+    "bip39": "^2.5.0",
+    "bn": "git+https://github.com/irisnet/bn.js.git#v4.12.0",
+    "create-hmac": "^1.1.7",
+    "crypto-browserify": "^3.12.0",
+    "ethereumjs-tx": "^1.3.0",
+    "ethereumjs-util": "^5.1.2",
+    "old": "^0.2.0",
+    "protobufjs": "^6.8.8",
+    "randombytes": "^2.0.6",
+    "ripemd160": "^2.0.1",
+    "secp256k1": "3.5.0",
+    "sha256": "^0.2.0",
+    "text-encoding": "^0.7.0",
+    "uuid": "^3.3.2"
+  },
+  "deprecated": false,
+  "description": "Javascript library for interacting with BHP",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "isomorphic-fetch": "^2.2.1",
+    "mocha": "^4.1.0",
+    "sync-request": "^6.1.0"
+  },
+  "homepage": "https://github.com/bhpnet/bhp-js-sdk",
+  "keywords": [
+    "cosmos",
+    "javascript",
+    "crypto",
+    "blockChain"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "bhpnet",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhpnet/bhp-js-sdk.git"
+  },
+  "scripts": {
+    "test": "mocha test/{test_tx_cosmos,test_hash_cosmos,test_hash_iris,test_account}.js --timeout 10000"
+  },
+  "version": "1.0.5",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  }
+}
