@@ -39,7 +39,7 @@
     "ripemd160": "^2.0.1",
     "secp256k1": "3.5.0",
     "sha256": "^0.2.0",
-    "text-encoding": "^0.7.0",
+    "@sinonjs/text-encoding": "^0.7.1",
     "uuid": "^3.3.2"
   },
   "deprecated": false,
